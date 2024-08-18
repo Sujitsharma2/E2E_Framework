@@ -1,0 +1,9 @@
+  
+  <test name="Testing2" >
+    
+	<parameter name="browser" value="Edge"></parameter>
+    <classes>
+        <!--<class name="com.E2E_FrameWrok.testCases.LoginTest" />!-->
+       <class name="com.E2E_FrameWrok.testCases.LoginTest" />
+    </classes>
+  </test>

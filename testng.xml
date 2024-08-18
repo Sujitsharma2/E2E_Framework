@@ -1,0 +1,36 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="E2E_FrameWork" verbose="1" >
+	<listeners>
+		<listener class-name="com.E2E_FrameWrok.utiities.Listeners"/>
+	</listeners>
+		
+  <test name="Testing" >
+    
+	<parameter name="browser" value="Chrome"></parameter>
+    <classes>
+        <!--<class name="com.E2E_FrameWrok.testCases.LoginTest" />!-->
+       
+       <class name="com.E2E_FrameWrok.testCases.LoginTest" />
+       
+    
+    
+    
+    </classes>
+  </test>
+  
+    <test name="Testing2" >
+    
+	<parameter name="browser" value="Edge"></parameter>
+    <classes>
+        <!--<class name="com.E2E_FrameWrok.testCases.LoginTest" />!-->
+       <class name="com.E2E_FrameWrok.testCases.LoginTest" />
+    </classes>
+  </test>
+
+
+
+
+</suite>
+
+

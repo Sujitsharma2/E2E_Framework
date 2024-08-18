@@ -1,0 +1,9 @@
+com\E2E_FrameWrok\pageObjects\HomePage.class
+com\E2E_FrameWrok\testCases\BaseClass.class
+com\E2E_FrameWrok\utiities\ReadExcel.class
+com\E2E_FrameWrok\testCases\LoginTest.class
+com\E2E_FrameWrok\pageObjects\LoginPage.class
+com\E2E_FrameWrok\testCases\LoginReplicaTest.class
+com\E2E_FrameWrok\testCases\LoginTestDP.class
+com\E2E_FrameWrok\utiities\ReadConfig.class
+com\E2E_FrameWrok\testCases\LoginReplicaTestTwo.class

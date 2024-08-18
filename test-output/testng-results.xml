@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-08-18T05:16:14 IST" name="E2E_FrameWork" finished-at="2024-08-18T05:16:48 IST" duration-ms="33634">
+    <groups>
+    </groups>
+    <test started-at="2024-08-18T05:16:14 IST" name="Testing" finished-at="2024-08-18T05:16:31 IST" duration-ms="17205">
+      <class name="com.E2E_FrameWrok.testCases.LoginTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.E2E_FrameWrok.testCases.LoginTest@149dd36b]" started-at="2024-08-18T05:16:14 IST" name="setup" finished-at="2024-08-18T05:16:19 IST" duration-ms="4884" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginTest()[pri:0, instance:com.E2E_FrameWrok.testCases.LoginTest@149dd36b]" started-at="2024-08-18T05:16:19 IST" name="loginTest" finished-at="2024-08-18T05:16:24 IST" duration-ms="4558" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="testtwo()[pri:1, instance:com.E2E_FrameWrok.testCases.LoginTest@149dd36b]" started-at="2024-08-18T05:16:24 IST" name="testtwo" finished-at="2024-08-18T05:16:24 IST" depends-on-methods="com.E2E_FrameWrok.testCases.LoginTest.loginTest" duration-ms="32" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testtwo -->
+        <test-method signature="testthree()[pri:2, instance:com.E2E_FrameWrok.testCases.LoginTest@149dd36b]" started-at="2024-08-18T05:16:24 IST" name="testthree" finished-at="2024-08-18T05:16:30 IST" depends-on-methods="com.E2E_FrameWrok.testCases.LoginTest.testtwo" duration-ms="5471" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testthree -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.E2E_FrameWrok.testCases.LoginTest@149dd36b]" started-at="2024-08-18T05:16:30 IST" name="tearDown" finished-at="2024-08-18T05:16:31 IST" duration-ms="1809" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.E2E_FrameWrok.testCases.LoginTest -->
+    </test> <!-- Testing -->
+    <test started-at="2024-08-18T05:16:32 IST" name="Testing2" finished-at="2024-08-18T05:16:48 IST" duration-ms="16082">
+      <class name="com.E2E_FrameWrok.testCases.LoginTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.E2E_FrameWrok.testCases.LoginTest@1852a3ff]" started-at="2024-08-18T05:16:32 IST" name="setup" finished-at="2024-08-18T05:16:36 IST" duration-ms="4196" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginTest()[pri:0, instance:com.E2E_FrameWrok.testCases.LoginTest@1852a3ff]" started-at="2024-08-18T05:16:36 IST" name="loginTest" finished-at="2024-08-18T05:16:41 IST" duration-ms="4687" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="testtwo()[pri:1, instance:com.E2E_FrameWrok.testCases.LoginTest@1852a3ff]" started-at="2024-08-18T05:16:41 IST" name="testtwo" finished-at="2024-08-18T05:16:41 IST" depends-on-methods="com.E2E_FrameWrok.testCases.LoginTest.loginTest" duration-ms="31" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testtwo -->
+        <test-method signature="testthree()[pri:2, instance:com.E2E_FrameWrok.testCases.LoginTest@1852a3ff]" started-at="2024-08-18T05:16:41 IST" name="testthree" finished-at="2024-08-18T05:16:46 IST" depends-on-methods="com.E2E_FrameWrok.testCases.LoginTest.testtwo" duration-ms="5476" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testthree -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.E2E_FrameWrok.testCases.LoginTest@1852a3ff]" started-at="2024-08-18T05:16:47 IST" name="tearDown" finished-at="2024-08-18T05:16:48 IST" duration-ms="1322" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.E2E_FrameWrok.testCases.LoginTest -->
+    </test> <!-- Testing2 -->
+  </suite> <!-- E2E_FrameWork -->
+</testng-results>
